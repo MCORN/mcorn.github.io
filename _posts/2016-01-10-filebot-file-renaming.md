@@ -12,3 +12,9 @@ In order to run Filebot on Ubuntu server 12.04, Java needs to be upgraded to Jav
 # Running Filebot
 
 See [bash script](https://github.com/MCORN/scripts/blob/master/bash/rename_move.sh) in the repo.
+
+**NOTE:** I haven't updated the script to incorporate the TV series side of things but this will be coming shortly. In the meantime, the filebot command is as below.
+
+```bash
+filebot -rename "Serie/season/" --format "{n} E{e} [{t}]" -non-strict
+```
