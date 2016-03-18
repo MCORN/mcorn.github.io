@@ -13,3 +13,6 @@ The Server IP and Client IP combination determines what you will be able to do o
 * If you set the Server IP to the original address of the router on the LAN (in my case, 192.168.1.1), once logged to the VPN, you will be able to access the router and that's it.
 * If you set Server IP and Client IP to another subnet (for example 192.168.111.1), you will have access to the LAN but not the WAN.
 * If you set Server ID and Client IP to the same subnet than your LAN (although you have to set those addresses to a range than can't be attributed via DHCP), then you will have access to both LAN and WAN.
+
+Then to connect to the PPTP server from Windows, follow those [ instructions](https://www.ibvpn.com/billing/knowledgebase/73/Set-up-the-PPTP-VPN-on-Windows-8.html).
+To connect from Ubuntu, go to Network Connections -> Add -> VPN. Gateway is the WAN address for the VPN, make sure the Authentication Methods selected match what is set on the PPTP server and enable Point to Point Encryption.
