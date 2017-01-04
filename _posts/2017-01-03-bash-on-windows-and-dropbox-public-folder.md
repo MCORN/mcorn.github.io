@@ -18,14 +18,23 @@ python -m SimpleHTTPServer 8600 2>&1 > /dev/null
 ```
 *suppressing the output is a must in order for the batch windows not to stay open when you start the webserver from Windows*
 
-I saved this code into a bash file at `~/httpweb.sh`
+I saved this code into a bash file at `~/httpweb.sh` as
+```bash
+#!/bin/bash
+cd /mnt/c/Users/Mat/Dropbox/Public
+python -m SimpleHTTPServer 8600 > /dev/null 2>&1
+```
 
 # Running the command from Windows
 ```cmd
 bash -c "~/httpweb.sh"
 ``` 
 
-I saved this code into a batch file called startHTTPWeb.bat
+I saved this code into a batch file called startHTTPWeb.bat as
+```cmd
+@echo off
+start bash -c "~/httpweb.sh"
+```
 
 # Getting the code to run at startup
 I copied the bat file from above into Windows Startup folder and the easiest way to find the folder is to run the command `shell:startup`.
