@@ -19,6 +19,7 @@ python -m SimpleHTTPServer 8600 2>&1 > /dev/null
 *suppressing the output is a must in order for the batch windows not to stay open when you start the webserver from Windows*
 
 I saved this code into a bash file at `~/httpweb.sh` as
+
 ```bash
 #!/bin/bash
 cd /mnt/c/Users/Mat/Dropbox/Public
@@ -31,6 +32,7 @@ bash -c "~/httpweb.sh"
 ``` 
 
 I saved this code into a batch file called startHTTPWeb.bat as
+
 ```cmd
 @echo off
 start bash -c "~/httpweb.sh"
