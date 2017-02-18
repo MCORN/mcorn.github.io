@@ -25,4 +25,4 @@ The hardest part was actually to get over the Cross Domain restrictions between 
   ServerName localhost
 </VirtualHost>
 ```
-As mentioned above, the code is very simplistic so far and the result not very visually appealing but at least it works. Results at https://github.com/MCORN/webplay. I will keep playing around, there is a standalone subsonic-lookalike API available at https://github.com/spl0k/supysonic that does look intriguing, especially since it would allow to use front-ends already available like [Jamstash](http://jamstash.com/).
+As mentioned above, the code is very simplistic so far and the result not very visually appealing but at least it works. Results at [https://github.com/MCORN/webplay](https://github.com/MCORN/webplay). I will keep playing around, there is a standalone subsonic-lookalike API available at [https://github.com/spl0k/supysonic](https://github.com/spl0k/supysonic) that does look intriguing, especially since it would allow to use front-ends already available like [Jamstash](http://jamstash.com/).
