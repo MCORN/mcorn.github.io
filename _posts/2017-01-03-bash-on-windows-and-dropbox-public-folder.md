@@ -41,7 +41,8 @@ start bash -c "~/httpweb.sh"
 # Getting the code to run at startup
 I copied the bat file from above into Windows Startup folder and the easiest way to find the folder is to run the command `shell:startup`.
 
-UPDATE: It turns out that by doing the above, the batch windows still needs to be open for the web server to be available, which takes up screen real estate. So my second attempt was to convert my .bat script to a Visual Basic script and create a Windows schedule task to start at LOGON and call the .vbs file, which works perfectly and as expected (as in without Command Prompt window lurking about).
+# Update
+It turns out that by doing the above, the batch windows still needs to be open for the web server to be available, which takes up screen real estate. So my second attempt was to convert my .bat script to a Visual Basic script and create a Windows schedule task to start at LOGON and call the .vbs file, which works perfectly and as expected (as in without Command Prompt window lurking about).
 
 Content of startHTTPWeb.vbs
 
