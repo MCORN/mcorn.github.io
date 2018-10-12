@@ -2,7 +2,7 @@ Handy to allow my modded original XBox to play non-avi files and that pesky TV t
 
 # UMS
 
-[https://github.com/UniversalMediaServer/UniversalMediaServer/wiki/Linux-install-instructions]
+[Installation instructions for Ubuntu](https://github.com/UniversalMediaServer/UniversalMediaServer/wiki/Linux-install-instructions)
 
 # Local details
 
